@@ -1,0 +1,403 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+
+2 0 obj
+<< /Type /Pages /Kids [ 4 0 R 6 0 R 8 0 R 10 0 R 12 0 R 14 0 R ] /Count 6 >>
+endobj
+
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+
+4 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 5 0 R >>
+endobj
+
+5 0 obj
+<< /Length 1706 >>
+stream
+BT
+/F1 10 Tf
+1 0 0 1 50 792 Tm (# taqman3c) Tj
+1 0 0 1 50 778 Tm () Tj
+1 0 0 1 50 764 Tm (0.4.0) Tj
+1 0 0 1 50 750 Tm (3C / 3C-qPCR / TaqMan Anchor-Test) Tj
+1 0 0 1 50 736 Tm () Tj
+1 0 0 1 50 722 Tm (---) Tj
+1 0 0 1 50 708 Tm () Tj
+1 0 0 1 50 694 Tm (## 1.) Tj
+1 0 0 1 50 680 Tm () Tj
+1 0 0 1 50 666 Tm (`taqman3c`  R  3C  TaqMan qPCR) Tj
+1 0 0 1 50 652 Tm () Tj
+1 0 0 1 50 638 Tm (-  Anchor +) Tj
+1 0 0 1 50 624 Tm (-  Test) Tj
+1 0 0 1 50 610 Tm (-) Tj
+1 0 0 1 50 596 Tm (-  FASTA) Tj
+1 0 0 1 50 582 Tm (-  BEDPE 7 A/B  Anchor) Tj
+1 0 0 1 50 568 Tm () Tj
+1 0 0 1 50 554 Tm (---) Tj
+1 0 0 1 50 540 Tm () Tj
+1 0 0 1 50 526 Tm (## 2.) Tj
+1 0 0 1 50 512 Tm () Tj
+1 0 0 1 50 498 Tm (### 2.1) Tj
+1 0 0 1 50 484 Tm () Tj
+1 0 0 1 50 470 Tm (- R >= 4.2) Tj
+1 0 0 1 50 456 Tm (- `devtools`) Tj
+1 0 0 1 50 442 Tm (- `testthat` DESCRIPTION  Suggests) Tj
+1 0 0 1 50 428 Tm () Tj
+1 0 0 1 50 414 Tm (### 2.2) Tj
+1 0 0 1 50 400 Tm () Tj
+1 0 0 1 50 386 Tm () Tj
+1 0 0 1 50 372 Tm () Tj
+1 0 0 1 50 358 Tm (--- code ---) Tj
+1 0 0 1 50 344 Tm (install.packages\("devtools"\)) Tj
+1 0 0 1 50 330 Tm (devtools::load_all\("."\)) Tj
+1 0 0 1 50 316 Tm (--- code ---) Tj
+1 0 0 1 50 302 Tm () Tj
+1 0 0 1 50 288 Tm (### 2.3) Tj
+1 0 0 1 50 274 Tm () Tj
+1 0 0 1 50 260 Tm (--- code ---) Tj
+1 0 0 1 50 246 Tm (install.packages\("devtools"\)) Tj
+1 0 0 1 50 232 Tm (devtools::install\("."\)) Tj
+1 0 0 1 50 218 Tm (library\(taqman3c\)) Tj
+1 0 0 1 50 204 Tm (--- code ---) Tj
+1 0 0 1 50 190 Tm () Tj
+1 0 0 1 50 176 Tm (### 2.4) Tj
+1 0 0 1 50 162 Tm () Tj
+1 0 0 1 50 148 Tm (--- code ---) Tj
+1 0 0 1 50 134 Tm (devtools::test\(\)) Tj
+1 0 0 1 50 120 Tm (--- code ---) Tj
+1 0 0 1 50 106 Tm () Tj
+1 0 0 1 50 92 Tm () Tj
+1 0 0 1 50 78 Tm () Tj
+ET
+endstream
+endobj
+
+6 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 7 0 R >>
+endobj
+
+7 0 obj
+<< /Length 1764 >>
+stream
+BT
+/F1 10 Tf
+1 0 0 1 50 792 Tm (--- code ---) Tj
+1 0 0 1 50 778 Tm (Rscript -e "devtools::test\(\)") Tj
+1 0 0 1 50 764 Tm (--- code ---) Tj
+1 0 0 1 50 750 Tm () Tj
+1 0 0 1 50 736 Tm (---) Tj
+1 0 0 1 50 722 Tm () Tj
+1 0 0 1 50 708 Tm (## 3.) Tj
+1 0 0 1 50 694 Tm () Tj
+1 0 0 1 50 680 Tm (### 3.1 sequence) Tj
+1 0 0 1 50 666 Tm () Tj
+1 0 0 1 50 652 Tm (-  DNA  `A/C/G/T`) Tj
+1 0 0 1 50 638 Tm (-) Tj
+1 0 0 1 50 624 Tm () Tj
+1 0 0 1 50 610 Tm (### 3.2  API  BEDPE) Tj
+1 0 0 1 50 596 Tm () Tj
+1 0 0 1 50 582 Tm () Tj
+1 0 0 1 50 568 Tm () Tj
+1 0 0 1 50 554 Tm (- `anchor_region = c\(start, end\)`1-based) Tj
+1 0 0 1 50 540 Tm (- `anchor_cut_site` anchor_region) Tj
+1 0 0 1 50 526 Tm (- `test_regions`) Tj
+1 0 0 1 50 512 Tm (  - `region_id`) Tj
+1 0 0 1 50 498 Tm (  - `start`) Tj
+1 0 0 1 50 484 Tm (  - `end`) Tj
+1 0 0 1 50 470 Tm (  - `cut_site`) Tj
+1 0 0 1 50 456 Tm () Tj
+1 0 0 1 50 442 Tm (### 3.3 BEDPE) Tj
+1 0 0 1 50 428 Tm () Tj
+1 0 0 1 50 414 Tm ( BEDPE) Tj
+1 0 0 1 50 400 Tm () Tj
+1 0 0 1 50 386 Tm (1. chr1) Tj
+1 0 0 1 50 372 Tm (2. start1) Tj
+1 0 0 1 50 358 Tm (3. end1) Tj
+1 0 0 1 50 344 Tm (4. chr2) Tj
+1 0 0 1 50 330 Tm (5. start2) Tj
+1 0 0 1 50 316 Tm (6. end2) Tj
+1 0 0 1 50 302 Tm (7. anchor_flag) Tj
+1 0 0 1 50 288 Tm () Tj
+1 0 0 1 50 274 Tm ( `anchor_flag`) Tj
+1 0 0 1 50 260 Tm () Tj
+1 0 0 1 50 246 Tm (- `A` Anchor2 Test) Tj
+1 0 0 1 50 232 Tm (- `B` Anchor1 Test) Tj
+1 0 0 1 50 218 Tm () Tj
+1 0 0 1 50 204 Tm (> BEDPE start 0-basedend 1-based/exclusive) Tj
+1 0 0 1 50 190 Tm () Tj
+1 0 0 1 50 176 Tm () Tj
+1 0 0 1 50 162 Tm () Tj
+1 0 0 1 50 148 Tm (--- code ---) Tj
+1 0 0 1 50 134 Tm (chr1    5000    6000    chr1    10000   11000   A) Tj
+1 0 0 1 50 120 Tm (--- code ---) Tj
+1 0 0 1 50 106 Tm () Tj
+1 0 0 1 50 92 Tm (---) Tj
+1 0 0 1 50 78 Tm () Tj
+ET
+endstream
+endobj
+
+8 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 9 0 R >>
+endobj
+
+9 0 obj
+<< /Length 2221 >>
+stream
+BT
+/F1 10 Tf
+1 0 0 1 50 792 Tm (## 4.  API`design_3c_taqman_assays\(\)`) Tj
+1 0 0 1 50 778 Tm () Tj
+1 0 0 1 50 764 Tm (### 4.1) Tj
+1 0 0 1 50 750 Tm () Tj
+1 0 0 1 50 736 Tm (--- code ---) Tj
+1 0 0 1 50 722 Tm (seq <- "ACGT...") Tj
+1 0 0 1 50 708 Tm () Tj
+1 0 0 1 50 694 Tm (test_regions <- data.frame\() Tj
+1 0 0 1 50 680 Tm (  region_id = c\("enh1", "enh2"\),) Tj
+1 0 0 1 50 666 Tm (  start = c\(800, 1200\),) Tj
+1 0 0 1 50 652 Tm (  end = c\(1100, 1500\),) Tj
+1 0 0 1 50 638 Tm (  cut_site = c\(980, 1360\)) Tj
+1 0 0 1 50 624 Tm (\)) Tj
+1 0 0 1 50 610 Tm () Tj
+1 0 0 1 50 596 Tm (assays <- design_3c_taqman_assays\() Tj
+1 0 0 1 50 582 Tm (  sequence = seq,) Tj
+1 0 0 1 50 568 Tm (  anchor_region = c\(100, 400\),) Tj
+1 0 0 1 50 554 Tm (  anchor_cut_site = 320,) Tj
+1 0 0 1 50 540 Tm (  test_regions = test_regions) Tj
+1 0 0 1 50 526 Tm (\)) Tj
+1 0 0 1 50 512 Tm () Tj
+1 0 0 1 50 498 Tm (print_assays\(assays\)) Tj
+1 0 0 1 50 484 Tm (--- code ---) Tj
+1 0 0 1 50 470 Tm () Tj
+1 0 0 1 50 456 Tm (### 4.2) Tj
+1 0 0 1 50 442 Tm () Tj
+1 0 0 1 50 428 Tm (- `max_results`) Tj
+1 0 0 1 50 414 Tm (- `primer_len_range` `c\(18, 30\)`) Tj
+1 0 0 1 50 400 Tm (- `probe_len_range` `c\(20, 30\)`) Tj
+1 0 0 1 50 386 Tm (- `primer_tm_range` Tm  `c\(58, 62\)`) Tj
+1 0 0 1 50 372 Tm (- `probe_tm_delta` Tm  `c\(8, 10\)`) Tj
+1 0 0 1 50 358 Tm (- `primer_gc_range` GC%  `c\(30, 80\)`) Tj
+1 0 0 1 50 344 Tm (- `distance_to_cut` `c\(50, 150\)`) Tj
+1 0 0 1 50 330 Tm (- `probe_gap_range` anchor  `c\(1, 10\)`) Tj
+1 0 0 1 50 316 Tm (- `amplicon_size_best` `c\(60, 150\)`) Tj
+1 0 0 1 50 302 Tm (- `amplicon_size_max` `300`) Tj
+1 0 0 1 50 288 Tm (- `secondary_enzyme_sites` motif) Tj
+1 0 0 1 50 274 Tm () Tj
+1 0 0 1 50 260 Tm (---) Tj
+1 0 0 1 50 246 Tm () Tj
+1 0 0 1 50 232 Tm (## 5. BEDPE API`design_3c_from_bedpe\(\)`) Tj
+1 0 0 1 50 218 Tm () Tj
+1 0 0 1 50 204 Tm (### 5.1) Tj
+1 0 0 1 50 190 Tm () Tj
+1 0 0 1 50 176 Tm (--- code ---) Tj
+1 0 0 1 50 162 Tm (assays <- design_3c_from_bedpe\() Tj
+1 0 0 1 50 148 Tm (  sequence = seq,) Tj
+1 0 0 1 50 134 Tm (  bedpe_path = "pairs.bedpe",) Tj
+1 0 0 1 50 120 Tm (  sequence_genomic_start = 1,) Tj
+1 0 0 1 50 106 Tm (  region_padding = 0) Tj
+1 0 0 1 50 92 Tm (\)) Tj
+1 0 0 1 50 78 Tm (--- code ---) Tj
+ET
+endstream
+endobj
+
+10 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 11 0 R >>
+endobj
+
+11 0 obj
+<< /Length 1912 >>
+stream
+BT
+/F1 10 Tf
+1 0 0 1 50 792 Tm () Tj
+1 0 0 1 50 778 Tm (### 5.2) Tj
+1 0 0 1 50 764 Tm () Tj
+1 0 0 1 50 750 Tm (- `bedpe_path`BEDPE) Tj
+1 0 0 1 50 736 Tm (- `sequence_genomic_start``sequence` 11-based) Tj
+1 0 0 1 50 722 Tm (- `region_padding` BEDPE) Tj
+1 0 0 1 50 708 Tm (- `...` `design_3c_taqman_assays\(\)`) Tj
+1 0 0 1 50 694 Tm () Tj
+1 0 0 1 50 680 Tm (### 5.3 A/B) Tj
+1 0 0 1 50 666 Tm () Tj
+1 0 0 1 50 652 Tm (-  BEDPE) Tj
+1 0 0 1 50 638 Tm (- 7 A/B) Tj
+1 0 0 1 50 624 Tm (-  `sequence_genomic_start`) Tj
+1 0 0 1 50 610 Tm () Tj
+1 0 0 1 50 596 Tm (---) Tj
+1 0 0 1 50 582 Tm () Tj
+1 0 0 1 50 568 Tm (## 6.) Tj
+1 0 0 1 50 554 Tm () Tj
+1 0 0 1 50 540 Tm (### 6.1) Tj
+1 0 0 1 50 526 Tm () Tj
+1 0 0 1 50 512 Tm (--- code ---) Tj
+1 0 0 1 50 498 Tm (assays <- design_3c_taqman_assays\() Tj
+1 0 0 1 50 484 Tm (  sequence = seq,) Tj
+1 0 0 1 50 470 Tm (  anchor_region = c\(100, 400\),) Tj
+1 0 0 1 50 456 Tm (  anchor_cut_site = 320,) Tj
+1 0 0 1 50 442 Tm (  test_regions = test_regions,) Tj
+1 0 0 1 50 428 Tm (  uniqueness_genome_fasta = "genome.fa",) Tj
+1 0 0 1 50 414 Tm (  uniqueness_max_hits = 1,) Tj
+1 0 0 1 50 400 Tm (  enforce_probe_uniqueness = FALSE) Tj
+1 0 0 1 50 386 Tm (\)) Tj
+1 0 0 1 50 372 Tm (--- code ---) Tj
+1 0 0 1 50 358 Tm () Tj
+1 0 0 1 50 344 Tm (### 6.2) Tj
+1 0 0 1 50 330 Tm () Tj
+1 0 0 1 50 316 Tm (- exact match) Tj
+1 0 0 1 50 302 Tm (-) Tj
+1 0 0 1 50 288 Tm (- `uniqueness_max_hits=1`) Tj
+1 0 0 1 50 274 Tm (-) Tj
+1 0 0 1 50 260 Tm (-) Tj
+1 0 0 1 50 246 Tm () Tj
+1 0 0 1 50 232 Tm (---) Tj
+1 0 0 1 50 218 Tm () Tj
+1 0 0 1 50 204 Tm (## 7. CLI) Tj
+1 0 0 1 50 190 Tm () Tj
+1 0 0 1 50 176 Tm (### 7.1 BEDPE CLI) Tj
+1 0 0 1 50 162 Tm () Tj
+1 0 0 1 50 148 Tm (--- code ---) Tj
+1 0 0 1 50 134 Tm (Rscript inst/scripts/design_from_bedpe_cli.R \\) Tj
+1 0 0 1 50 120 Tm (  "ACGT..." pairs.bedpe 1 0 genome.fa 1) Tj
+1 0 0 1 50 106 Tm (--- code ---) Tj
+1 0 0 1 50 92 Tm () Tj
+1 0 0 1 50 78 Tm () Tj
+ET
+endstream
+endobj
+
+12 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 13 0 R >>
+endobj
+
+13 0 obj
+<< /Length 2086 >>
+stream
+BT
+/F1 10 Tf
+1 0 0 1 50 792 Tm () Tj
+1 0 0 1 50 778 Tm (1. `SEQUENCE`) Tj
+1 0 0 1 50 764 Tm (2. `BEDPE_PATH`) Tj
+1 0 0 1 50 750 Tm (3. `SEQUENCE_GENOMIC_START`1) Tj
+1 0 0 1 50 736 Tm (4. `REGION_PADDING`0) Tj
+1 0 0 1 50 722 Tm (5. `GENOME_FASTA`) Tj
+1 0 0 1 50 708 Tm (6. `MAX_HITS`1) Tj
+1 0 0 1 50 694 Tm () Tj
+1 0 0 1 50 680 Tm (### 7.2  CLI) Tj
+1 0 0 1 50 666 Tm () Tj
+1 0 0 1 50 652 Tm (--- code ---) Tj
+1 0 0 1 50 638 Tm (Rscript inst/scripts/design_taqman_cli.R \\) Tj
+1 0 0 1 50 624 Tm (  "ACGT..." 100 400 320 test_regions.tsv genome.fa 1) Tj
+1 0 0 1 50 610 Tm (--- code ---) Tj
+1 0 0 1 50 596 Tm () Tj
+1 0 0 1 50 582 Tm (---) Tj
+1 0 0 1 50 568 Tm () Tj
+1 0 0 1 50 554 Tm (## 8.) Tj
+1 0 0 1 50 540 Tm () Tj
+1 0 0 1 50 526 Tm () Tj
+1 0 0 1 50 512 Tm () Tj
+1 0 0 1 50 498 Tm (- `region_id`) Tj
+1 0 0 1 50 484 Tm (- `anchor_primer_seq`, `anchor_primer_start`, `anchor_primer_end`, `anchor_primer_tm`,) Tj
+1 0 0 1 50 470 Tm (`anchor_primer_gc`) Tj
+1 0 0 1 50 456 Tm (- `test_primer_seq`, `test_primer_start`, `test_primer_end`, `test_primer_tm`, `test_primer_gc`) Tj
+1 0 0 1 50 442 Tm (- `probe_seq_antisense`, `probe_start`, `probe_end`, `probe_tm`, `probe_gc`) Tj
+1 0 0 1 50 428 Tm (- `probe_gap_from_anchor_primer`) Tj
+1 0 0 1 50 414 Tm (- `pseudo_amplicon_size`) Tj
+1 0 0 1 50 400 Tm (- `score`) Tj
+1 0 0 1 50 386 Tm () Tj
+1 0 0 1 50 372 Tm (---) Tj
+1 0 0 1 50 358 Tm () Tj
+1 0 0 1 50 344 Tm (## 9.) Tj
+1 0 0 1 50 330 Tm () Tj
+1 0 0 1 50 316 Tm (### 9.1 `Sequence includes invalid bases`) Tj
+1 0 0 1 50 302 Tm () Tj
+1 0 0 1 50 288 Tm ( A/C/G/T) Tj
+1 0 0 1 50 274 Tm () Tj
+1 0 0 1 50 260 Tm (### 9.2 `BEDPE column 7 anchor_flag must be A or B`) Tj
+1 0 0 1 50 246 Tm () Tj
+1 0 0 1 50 232 Tm ( A  B) Tj
+1 0 0 1 50 218 Tm () Tj
+1 0 0 1 50 204 Tm (### 9.3 `...outside sequence bounds`) Tj
+1 0 0 1 50 190 Tm () Tj
+1 0 0 1 50 176 Tm (BEDPE  `sequence`) Tj
+1 0 0 1 50 162 Tm () Tj
+1 0 0 1 50 148 Tm (- `sequence_genomic_start`) Tj
+1 0 0 1 50 134 Tm (- BEDPE) Tj
+1 0 0 1 50 120 Tm (-  `region_padding`) Tj
+1 0 0 1 50 106 Tm () Tj
+1 0 0 1 50 92 Tm (### 9.4 0) Tj
+1 0 0 1 50 78 Tm () Tj
+ET
+endstream
+endobj
+
+14 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 15 0 R >>
+endobj
+
+15 0 obj
+<< /Length 922 >>
+stream
+BT
+/F1 10 Tf
+1 0 0 1 50 792 Tm () Tj
+1 0 0 1 50 778 Tm () Tj
+1 0 0 1 50 764 Tm (- Tm/GC/distance/uniqueness) Tj
+1 0 0 1 50 750 Tm (- anchor/test  cut-site) Tj
+1 0 0 1 50 736 Tm (- 5'GC>Ggap) Tj
+1 0 0 1 50 722 Tm () Tj
+1 0 0 1 50 708 Tm () Tj
+1 0 0 1 50 694 Tm () Tj
+1 0 0 1 50 680 Tm (- `distance_to_cut`) Tj
+1 0 0 1 50 666 Tm (- `primer_tm_range`) Tj
+1 0 0 1 50 652 Tm (- `uniqueness_max_hits`) Tj
+1 0 0 1 50 638 Tm (- `amplicon_size_max`) Tj
+1 0 0 1 50 624 Tm () Tj
+1 0 0 1 50 610 Tm (---) Tj
+1 0 0 1 50 596 Tm () Tj
+1 0 0 1 50 582 Tm (## 10.) Tj
+1 0 0 1 50 568 Tm () Tj
+1 0 0 1 50 554 Tm (1.  BEDPE) Tj
+1 0 0 1 50 540 Tm (2.) Tj
+1 0 0 1 50 526 Tm (3.  top) Tj
+1 0 0 1 50 512 Tm (4. /) Tj
+1 0 0 1 50 498 Tm (5.) Tj
+1 0 0 1 50 484 Tm () Tj
+1 0 0 1 50 470 Tm (---) Tj
+1 0 0 1 50 456 Tm () Tj
+1 0 0 1 50 442 Tm (## 11.) Tj
+1 0 0 1 50 428 Tm () Tj
+1 0 0 1 50 414 Tm (- v0.4.0 BEDPEA/B Anchor +) Tj
+1 0 0 1 50 400 Tm () Tj
+ET
+endstream
+endobj
+
+xref
+0 16
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000150 00000 n 
+0000000220 00000 n 
+0000000346 00000 n 
+0000002104 00000 n 
+0000002230 00000 n 
+0000004046 00000 n 
+0000004172 00000 n 
+0000006445 00000 n 
+0000006573 00000 n 
+0000008538 00000 n 
+0000008666 00000 n 
+0000010805 00000 n 
+0000010933 00000 n 
+trailer
+<< /Size 16 /Root 1 0 R >>
+startxref
+11907
+%%EOF

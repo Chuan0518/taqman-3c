@@ -1,0 +1,13 @@
+Package: taqman3c
+Type: Package
+Title: TaqMan 3C-qPCR Primer and Probe Design
+Version: 0.4.0
+Authors@R: person(given = "Codex", family = "Agent", role = c("aut", "cre"), email = "agent@example.com")
+Description: 3C-oriented, rule-based design of Anchor/Test primers and TaqMan probes with cut-site distance, orientation, amplicon constraints, and optional local genome-wide uniqueness filtering from FASTA, and BEDPE-driven anchor/test region parsing.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.3.2
+Suggests:
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
