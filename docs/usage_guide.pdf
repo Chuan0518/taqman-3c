@@ -1,0 +1,121 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+
+2 0 obj
+<< /Type /Pages /Kids [ 4 0 R 6 0 R ] /Count 2 >>
+endobj
+
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+
+4 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 5 0 R >>
+endobj
+
+5 0 obj
+<< /Length 1924 >>
+stream
+BT
+/F1 10 Tf
+1 0 0 1 50 792 Tm (# taqman3c) Tj
+1 0 0 1 50 778 Tm () Tj
+1 0 0 1 50 764 Tm (0.4.2) Tj
+1 0 0 1 50 750 Tm () Tj
+1 0 0 1 50 736 Tm (## 1.) Tj
+1 0 0 1 50 722 Tm () Tj
+1 0 0 1 50 708 Tm (**BEDPE -> design_3c_from_bedpe\(\)**) Tj
+1 0 0 1 50 694 Tm () Tj
+1 0 0 1 50 680 Tm (## 2.) Tj
+1 0 0 1 50 666 Tm () Tj
+1 0 0 1 50 652 Tm (--- code ---) Tj
+1 0 0 1 50 638 Tm (install.packages\("devtools"\)) Tj
+1 0 0 1 50 624 Tm (devtools::load_all\("."\)) Tj
+1 0 0 1 50 610 Tm (--- code ---) Tj
+1 0 0 1 50 596 Tm () Tj
+1 0 0 1 50 582 Tm (## 3.) Tj
+1 0 0 1 50 568 Tm () Tj
+1 0 0 1 50 554 Tm (### 3.1 sequence) Tj
+1 0 0 1 50 540 Tm () Tj
+1 0 0 1 50 526 Tm (-  DNA A/C/G/T) Tj
+1 0 0 1 50 512 Tm (-  `"GATC\\n"` trim) Tj
+1 0 0 1 50 498 Tm () Tj
+1 0 0 1 50 484 Tm (### 3.2 BEDPE) Tj
+1 0 0 1 50 470 Tm () Tj
+1 0 0 1 50 456 Tm () Tj
+1 0 0 1 50 442 Tm (`chr1 start1 end1 chr2 start2 end2 anchor_flag`) Tj
+1 0 0 1 50 428 Tm () Tj
+1 0 0 1 50 414 Tm (7) Tj
+1 0 0 1 50 400 Tm (- `A`Anchor) Tj
+1 0 0 1 50 386 Tm (- `B`Anchor) Tj
+1 0 0 1 50 372 Tm () Tj
+1 0 0 1 50 358 Tm (## 4.) Tj
+1 0 0 1 50 344 Tm () Tj
+1 0 0 1 50 330 Tm (--- code ---) Tj
+1 0 0 1 50 316 Tm (assays <- design_3c_from_bedpe\() Tj
+1 0 0 1 50 302 Tm (  sequence = "GATC\\n",) Tj
+1 0 0 1 50 288 Tm (  bedpe_path = "pairs.bedpe",) Tj
+1 0 0 1 50 274 Tm (  sequence_genomic_start = 1,) Tj
+1 0 0 1 50 260 Tm (  region_padding = 0) Tj
+1 0 0 1 50 246 Tm (\)) Tj
+1 0 0 1 50 232 Tm (--- code ---) Tj
+1 0 0 1 50 218 Tm () Tj
+1 0 0 1 50 204 Tm () Tj
+1 0 0 1 50 190 Tm (- `uniqueness_genome_fasta = "genome.fa"`) Tj
+1 0 0 1 50 176 Tm (- `uniqueness_max_hits = 1`) Tj
+1 0 0 1 50 162 Tm (- `enforce_probe_uniqueness = FALSE`) Tj
+1 0 0 1 50 148 Tm () Tj
+1 0 0 1 50 134 Tm (## 5. CLI) Tj
+1 0 0 1 50 120 Tm () Tj
+1 0 0 1 50 106 Tm (--- code ---) Tj
+1 0 0 1 50 92 Tm (Rscript inst/scripts/design_from_bedpe_cli.R   "ACGT..." pairs.bedpe 1 0 genome.fa 1) Tj
+1 0 0 1 50 78 Tm (--- code ---) Tj
+ET
+endstream
+endobj
+
+6 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 7 0 R >>
+endobj
+
+7 0 obj
+<< /Length 610 >>
+stream
+BT
+/F1 10 Tf
+1 0 0 1 50 792 Tm () Tj
+1 0 0 1 50 778 Tm (## 6.) Tj
+1 0 0 1 50 764 Tm () Tj
+1 0 0 1 50 750 Tm () Tj
+1 0 0 1 50 736 Tm (- `region_id`) Tj
+1 0 0 1 50 722 Tm (- `anchor_primer_seq`, `test_primer_seq`) Tj
+1 0 0 1 50 708 Tm (- `probe_seq_antisense`) Tj
+1 0 0 1 50 694 Tm (- `pseudo_amplicon_size`) Tj
+1 0 0 1 50 680 Tm (- `score`) Tj
+1 0 0 1 50 666 Tm () Tj
+1 0 0 1 50 652 Tm (## 7.) Tj
+1 0 0 1 50 638 Tm () Tj
+1 0 0 1 50 624 Tm (- `uniqueness_genome_fasta ` `genome.fa`) Tj
+1 0 0 1 50 610 Tm (- `BEDPE 7 anchor_flag  A  B`7) Tj
+1 0 0 1 50 596 Tm (- ` sequence ` `sequence_genomic_start`  BEDPE) Tj
+ET
+endstream
+endobj
+
+xref
+0 8
+0000000000 65535 f
+0000000009 00000 n
+0000000058 00000 n
+0000000123 00000 n
+0000000193 00000 n
+0000000319 00000 n
+0000002295 00000 n
+0000002421 00000 n
+trailer
+<< /Size 8 /Root 1 0 R >>
+startxref
+3082
+%%EOF
